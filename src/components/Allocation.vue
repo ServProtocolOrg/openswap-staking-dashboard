@@ -9,8 +9,8 @@ const { getUsedDelegations, getTotalStaked } = storeToRefs(useWalletStore())
 const { theme } = storeToRefs(useGlobalStore())
 
 const colors = [
-    '#00ADE8', '#32B5CD', '#D8BE72', '#E36E7A', '#AC9393', '#6CD1B5', '#35C3CC',
-    '#79D9EC', '#94F4D9', '#68F7BA', '#68F9BB', '#75ECBA', '#68F9BB', '#43C3EE', '#D1F1FA', '#4E4F79', '#F8AD63'
+    '#B03173', '#B45285', '#B47796', '#6D0F3E', '#B915EB', '#C53CEE', '#640A7F',
+    '#9223F9', '#D1B0F0', '#9B6CC8'
 ]
 let used: Ref<string[]> = ref([])
 
